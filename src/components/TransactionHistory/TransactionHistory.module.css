@@ -1,0 +1,33 @@
+.transactionHistory {
+  border: 1px solid black;
+  margin: auto;
+  background-color: rgba(210, 208, 204, 0.913);
+}
+.item:nth-child(2n) {
+  background-color: #daccba;
+}
+
+th {
+  font-size: 20px;
+  font-weight: bold;
+  background: #9f9f9f;
+  border-top: 4px solid black;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 8px;
+}
+td {
+  width: 150px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  text-transform: capitalize;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+}
+
+tr:hover td {
+  background: rgb(186, 183, 170);
+}

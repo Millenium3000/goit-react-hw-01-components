@@ -1,0 +1,48 @@
+.statistics {
+  width: 450px;
+  height: 200px;
+  padding: 15px;
+  margin: auto;
+  background-color: rgb(214, 214, 202);
+  border-radius: 10px;
+  box-shadow: -2px 7px 33px 0 rgba(0, 0, 0, 0.71);
+}
+.title {
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 120px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  border: 2px solid;
+}
+.item:nth-child(even) {
+  background-color: #bfaf9d;
+}
+
+.item:nth-child(odd) {
+  background-color: #daccba;
+}
+.label {
+  display: block;
+  padding: 5px;
+  font-size: 20px;
+}
+.statList {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+.percentage {
+  padding: 5px;
+  font-size: 20px;
+}

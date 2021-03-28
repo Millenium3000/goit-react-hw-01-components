@@ -1,0 +1,22 @@
+.item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 580px;
+  height: 100%;
+  margin: auto auto 60px;
+  padding: 20px;
+  background-color: rgb(214, 214, 202);
+  border-radius: 10px;
+  box-shadow: -2px 7px 33px 0 rgba(0, 0, 0, 0.71);
+}
+.title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #605f5e;
+}
+
+ul {
+  margin: 0;
+}
